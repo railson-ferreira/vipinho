@@ -1,0 +1,16 @@
+name: Vipinho
+main: com.mineupserver.plugin.vipinho.Vipinho
+version: 1.0
+
+commands:
+   vip:
+      description: Obter ajuda dos comandos vip.
+      usage: /<command>
+   vipadm:
+      description: Obter ajuda dos comandos vipadm.
+      usage: /<command>
+
+permissions:
+  Vipinho.*:
+    default: op
+    description: Dar todas as permissões pra um op por padrão.

@@ -1,0 +1,22 @@
+# # # # # # # # # # # # # # # # # # # # #Example# # # # # # # # # # # # # # # # # # # # #
+# kits:																					#
+#   kit1:																				#
+#   - item1 [amount] [place] [enchantment1_id]:[level] [enchantment2_id]:[level]		#
+#   - item2 [amount] [place] [enchantment1_id]:[level] [enchantment2_id]:[level]		#
+#   kit2:																				#
+#   - item1 [amount] [place] [enchantment1_id]:[level] [enchantment2_id]:[level]		#
+#   - item2 [amount] [place] [enchantment1_id]:[level] [enchantment2_id]:[level]		#
+# 																						#
+# set [place] = 0 for default															#
+# the [place] can be: Helmet, Chestplate, Leggings, Boots, Hand or a number				#
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+#you can see the ids on the site: http://minecraft.gamepedia.com/Enchanting
+
+kits:
+  defaultkit:
+  - 276 1 1 16:6 20
+  - 310 1 helmet
+  - 311 1 chestplate
+  - 312 1 leggings
+  - 313 1 boots

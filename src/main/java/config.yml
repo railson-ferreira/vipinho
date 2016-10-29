@@ -1,0 +1,40 @@
+# Languages available [br]
+language: br
+ 
+# Languages_cmds available [br]
+language_cmds: br
+
+# 0=random / 1=clockwise / 2=counterclockwise
+mode-bug-area: 0
+ 
+msg-bug-area: ''
+message-no-vip: ''
+axe: true
+
+mysql:
+    enabled: false
+    host: localhost
+    port: 3306
+    user: user
+    password: password
+    database: Vipinho_plugin
+    #auto_update_time in seconds | 0 to disable
+    auto_update_time: 0
+    #used for instant updating e.g. 'last_db_update.txt'
+    file-last_db_update: ''
+    # 0=simple / 1=normal / 2=advanced 
+    mode: 1
+    table:
+        name: entrys
+        columns:
+            # SimpleMode
+            id: id
+            nick: nick
+            vip_id: vip_id
+            # NormalMode
+            validity: validity
+            data_activation: data_activation
+            data_validity: data_validity
+            # AdvancedMode
+            status: status
+
